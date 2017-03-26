@@ -16,13 +16,14 @@ module.exports = {
     // },
     module: {
         loaders: [{
-            test: /.js[x]?$/,
+            test: /.jsx?$/,
             loader: 'babel-loader',
             exclude: /node_modules/,
             query: {
-                presets: ['es2015', 'react'],
+                presets: ['es2015', 'react']
+                //,
                 // O plugin foi adicionado no ex.12
-                plugins: ['transform-object-rest-spread']
+                //plugins: ['transform-object-rest-spread']
             }
         }]
     }
