@@ -11,9 +11,9 @@ module.exports = {
         contentBase: './public',
     },
     // Adicionado no ex.3
-    // resolve: {
-    //     extensions: ['', '.js', '.jsx']
-    // },
+     resolve: {
+         extensions: ['', '.js', '.jsx']
+     },
     module: {
         loaders: [{
             test: /.jsx?$/,
