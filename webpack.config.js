@@ -21,9 +21,9 @@ module.exports = {
             exclude: /node_modules/,
             query: {
                 presets: ['es2015', 'react']
-                //,
+                ,
                 // O plugin foi adicionado no ex.12
-                //plugins: ['transform-object-rest-spread']
+                plugins: ['transform-object-rest-spread']
             }
         }]
     }
