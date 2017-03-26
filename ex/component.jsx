@@ -1,8 +1,6 @@
 import React from 'react'
 
-//AeroFunction
-export default () => (
-    <h1>Primeiro Componente</h1>
+//ArrowFunction
+export default props => (
+    <h1>{props.value}</h1>
 )
-    
-
